@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Download } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -6,11 +6,12 @@ import Profile from '../assets/profile.png'
 import { motion } from 'framer-motion';
 import "../Css/Hero.css"
 
-
 const Hero = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+
   return (
     <section className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10'>
-        {/* stars */}
+        {/* Previous code remains the same until the button */}
         <div>
             <span></span>
             <span></span>
@@ -39,11 +40,45 @@ const Hero = () => {
             whileInView={{opacity:1, x:0}}
             transition={{duration:1.4, delay:0.5}}
             className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>Student at University of Washington and passionate in digital VLSI and Embedded Systems .</motion.p>
-            <motion.button
-            initial={{opacity:0, x:-100}}
-            whileInView={{opacity:1, x:0}}
-            transition={{duration:1.4, delay:0.5}}
-            className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] '><Download className='w-5 h-5'/> Download CV</motion.button>
+
+            {/* Updated Download Button with Dropdown */}
+            <div className="relative">
+              <motion.button
+                initial={{opacity:0, x:-100}}
+                whileInView={{opacity:1, x:0}}
+                transition={{duration:1.4, delay:0.5}}
+                onMouseEnter={() => setShowDropdown(true)}
+                onMouseLeave={() => setShowDropdown(false)}
+                className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]'
+              >
+                <Download className='w-5 h-5'/> Download CV
+              </motion.button>
+
+              {showDropdown && (
+                <div
+                  className="absolute mt-1 bg-gray-800 border border-blue-400 rounded-md shadow-lg py-1 z-50 w-48"
+                  onMouseEnter={() => setShowDropdown(true)}
+                  onMouseLeave={() => setShowDropdown(false)}
+                >
+                  <a
+                    href="/Max_Lan_Resume_Firmware.pdf"
+                    download
+                    className="block w-full px-4 py-2 text-left hover:bg-gray-700 text-white"
+                  >
+                    Firmware Focus
+                  </a>
+                  <a
+                    href="/Max_Lan_Resume_Software.pdf"
+                    download
+                    className="block w-full px-4 py-2 text-left hover:bg-gray-700 text-white"
+                  >
+                    Software Focus
+                  </a>
+                </div>
+              )}
+            </div>
+
+            {/* Rest of the component remains the same */}
             <div>
                 <div>
                     <h3 className='text-2xl font-semibold text-gray-300'>Follow Me</h3>

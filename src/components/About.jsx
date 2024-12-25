@@ -14,18 +14,20 @@ const About = () => {
             </div>
             {/* paragraph section */}
             <div className='p-5 md:p-10 bg-gray-950 rounded-md shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'>
-                <p className='text-lg leading-7 mb-6'>Hi! I'm Max Lan, a passionate .</p>
-                <p className='text-lg leading-7 mb-6'>My journey into tech began from a non-IT background, and I've embraced every challenge to hone my skills in development, problem-solving, and teamwork. I'm always eager to learn and explore new technologies to deliver cutting-edge web experiences.</p>
-                <p className='text-lg leading-7 '>When I'm not in academic setting, I enjoy sharing my knowledge through my <a href="#" className='text-blue-500 underline'>YouTube channel</a>, where I teach JavaScript, MERN stack, and WordPress concepts. Let's connect and build something amazing together!</p>
+                <p className='text-lg leading-7 mb-6'>Hi! I’m Max Lan, a student passionate in the field of technology, ranging from the craft of software engineering to the art of electronics.</p>
+                <p className='text-lg leading-7 mb-6'>In my schoolwork, I focused exploring the fundamentals of Electrical Engineering, such as Signals Processing, Electronics Devices, Digital Logic, Integrated Circuits, VLSI, etc, along with the theories of Computer Science, such as Computer Architecture, Hardware/Software Interface, Algorithms, Discrete Mathematics, Machine Learning, etc.</p>
+                <p className='text-lg leading-7 '>Outside of my schoolwork, I enjoy applying my knowledge through joining clubs, research, building projects in areas of Computer Architecture, Embedded Systems, Programming Langauges, Web Development (Just to name a few)!</p>
                 <div className='mt-5'>
                     <h1 className='font-bold text-2xl mb-5 text-blue-400'>My Skills</h1>
                     <div className='flex flex-wrap gap-4 mb-5 text-sm'>
-                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>React</p>
-                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Next.js</p>
-                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Tailwind Css</p>
-                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Redux</p>
-                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Node.js</p>
-                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Github</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>SystemVerilog</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>ARM Assembly</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>FreeRTOS</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Altium Designer</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>FPGA Development</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>ModelSim</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Intel Quartus</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Embedded Systems</p>
                     </div>
                     <button className='px-3 py-1 rounded-md bg-blue-500 text-white flex items-center gap-1'>Contact<FaChevronRight/></button>
                 </div>

@@ -11,7 +11,7 @@ const Contact = () => {
             <div className='flex flex-col justify-center space-y-8'>
                 <div>
                     <h1 className='text-4xl lg:text-6xl font-bold text-gray-300'>Let's Talk</h1>
-                    <p className='text-gray-300 my-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, ab. Iusto beatae doloribus ut sunt voluptatem fuga mollitia dicta illum!</p>
+                    <p className='text-gray-300 my-5'>Here is my contact information, feel free to contact me and ask me any questions!</p>
                     <h3 className='text-2xl font-semibold text-gray-300'>Email</h3>
                     <p className='text-gray-600 mt-2'>
                         <a href="#" className='text-blue-500 hover:underline'>ml248@uw.edu</a>
