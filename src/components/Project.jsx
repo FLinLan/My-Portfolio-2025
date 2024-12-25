@@ -7,16 +7,16 @@ import { FaGithub } from 'react-icons/fa'
 const Project = () => {
     const projects = [
         {
-          title: "Digital Marketing",
+          title: "ARM pipelined CPU",
           description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
+          techStack: ["SystemVerilog", "ModelSim", "ARM Assembly", "FPGA"],
           link: "https://business420.netlify.app/",
           github: 'https://github.com/rohitsingh93300/YTBusiness',
           image: Digital, // Replace with your project screenshot
         },
         {
-          title: "Nike Shoes",
+          title: "Recommendation Buddy System",
           description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
           techStack: ["React", "Node.js", "MongoDB", "shadcn UI"],
@@ -25,7 +25,16 @@ const Project = () => {
           image: Nike, // Replace with your project screenshot
         },
         {
-          title: "Clothify",
+          title: "BLDC Motor Board",
+          description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
+          techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
+          link: "https://clothify-two.vercel.app/",
+          github: 'https://github.com/rohitsingh93300/YT-Clothify',
+          image: Clothify, // Replace with your project screenshot
+        },
+        {
+          title: "Plant Monitoring System",
           description:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
           techStack: ["Next.js", "MongoDB", "Clerk Authentication"],

@@ -14,7 +14,7 @@ const Contact = () => {
                     <p className='text-gray-300 my-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, ab. Iusto beatae doloribus ut sunt voluptatem fuga mollitia dicta illum!</p>
                     <h3 className='text-2xl font-semibold text-gray-300'>Email</h3>
                     <p className='text-gray-600 mt-2'>
-                        <a href="#" className='text-blue-500 hover:underline'>youremail@example.com</a>
+                        <a href="#" className='text-blue-500 hover:underline'>ml248@uw.edu</a>
                     </p>
                 </div>
                 <div>
@@ -39,27 +39,27 @@ const Contact = () => {
                 <form action="" className='space-y-6'>
                     <div>
                         <label htmlFor="name" className='block text-sm font-medium text-gray-300'>Name</label>
-                        <input 
-                        type="email" 
-                        id='email' 
+                        <input
+                        type="email"
+                        id='email'
                         className='mt-1 w-full p-3 border bg-gray-950 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
-                        placeholder='Your Email' 
+                        placeholder='Your Email'
                         />
                     </div>
                     <div>
                         <label htmlFor="email" className='block text-sm font-medium text-gray-300'>email</label>
-                        <input 
-                        type="text" 
-                        id='name' 
+                        <input
+                        type="text"
+                        id='name'
                         className='mt-1 w-full p-3 border bg-gray-950 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
-                        placeholder='Your Name' 
+                        placeholder='Your Name'
                         />
                     </div>
                     <div>
                         <label htmlFor="message" className='block text-sm font-medium text-gray-300'>Message</label>
-                        <textarea 
-                        id="messsage" 
-                        rows={5} 
+                        <textarea
+                        id="messsage"
+                        rows={5}
                         className='mt-1 w-full p-3 border bg-gray-950 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500' 
                         placeholder='Your Message'></textarea>
                     </div>

@@ -24,22 +24,22 @@ const Hero = () => {
         </div>
       <div className='max-w-7xl mt-24 mx-auto items-center flex flex-col md:flex-row gap-16 md:gap-40 justify-between'>
         <div className='md:space-y-6 px-4'>
-            <motion.h1 
+            <motion.h1
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1, delay:0.2}}
-            className='md:text-6xl text-4xl font-bold mb-4'>Hi👋, I'm <p className='text-blue-400'>Rohit Singh</p></motion.h1>
-            <motion.p 
+            className='md:text-6xl text-4xl font-bold mb-4'>Hi👋, I'm <p className='text-blue-400'>Max Lan</p></motion.h1>
+            <motion.p
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1.2, delay:0.4}}
-            className='md:text-2xl text-lg mb-3'>Full-Stack Developer | MERN Stack Enthusiast</motion.p>
-            <motion.p 
+            className='md:text-2xl text-lg mb-3'>Electrical Engineer | Technology Enthusiast</motion.p>
+            <motion.p
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1.4, delay:0.5}}
-            className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laboriosam iste ipsa dolores? Voluptas et quae eveniet obcaecati voluptatibus eaque dolorem fugiat labore cumque esse.</motion.p>
-            <motion.button 
+            className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>Student at University of Washington and passionate in digital VLSI and Embedded Systems .</motion.p>
+            <motion.button
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1.4, delay:0.5}}
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
         </div>
         <div className='relative group'>
-            <motion.img 
+            <motion.img
             initial={{opacity:0, scale:0.5}}
             whileInView={{opacity:1, scale:1}}
             transition={{duration:1.4, delay:0}}

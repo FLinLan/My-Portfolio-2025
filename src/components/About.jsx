@@ -14,9 +14,9 @@ const About = () => {
             </div>
             {/* paragraph section */}
             <div className='p-5 md:p-10 bg-gray-950 rounded-md shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'>
-                <p className='text-lg leading-7 mb-6'>Hi! I'm Rohit Singh, a passionate Full-Stack Developer with expertise in the MERN stack, WordPress, and SEO. With a strong foundation in modern web development and an eye for detail, I create elegant, user-friendly web solutions tailored to meet client needs.</p>
-                <p className='text-lg leading-7 mb-6'>My journey into tech began from a non-IT background, and I've embraced every challenge to hone my skills in development, problem-solving, and teamwork. I’m always eager to learn and explore new technologies to deliver cutting-edge web experiences.</p>
-                <p className='text-lg leading-7 '>When I’m not coding, I enjoy sharing my knowledge through my <a href="#" className='text-blue-500 underline'>YouTube channel</a>, where I teach JavaScript, MERN stack, and WordPress concepts. Let’s connect and build something amazing together!</p>
+                <p className='text-lg leading-7 mb-6'>Hi! I'm Max Lan, a passionate .</p>
+                <p className='text-lg leading-7 mb-6'>My journey into tech began from a non-IT background, and I've embraced every challenge to hone my skills in development, problem-solving, and teamwork. I'm always eager to learn and explore new technologies to deliver cutting-edge web experiences.</p>
+                <p className='text-lg leading-7 '>When I'm not coding, I enjoy sharing my knowledge through my <a href="#" className='text-blue-500 underline'>YouTube channel</a>, where I teach JavaScript, MERN stack, and WordPress concepts. Let's connect and build something amazing together!</p>
                 <div className='mt-5'>
                     <h1 className='font-bold text-2xl mb-5 text-blue-400'>My Skills</h1>
                     <div className='flex flex-wrap gap-4 mb-5 text-sm'>

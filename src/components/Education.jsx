@@ -1,41 +1,41 @@
 import React from 'react'
 const education = [
     {
-      degree: "Bachelor of Science (BSc)",
-      institution: "Bangabashi Morning College",
-      year: "2018 - 2021",
+      degree: "Bachelor of Engineering (BE) in Electrical and Computer Engineering",
+      institution: "University of Washington",
+      year: "2022 - 2026",
       description: "Graduated with a strong foundation in critical thinking and problem-solving.",
-      icon: "🎓",
-    },
-    {
-      degree: "Higher Secondary (11th-12th) ",
-      institution: "Adarsh Madhyamik Vidhyalaya",
-      year: "2016 - 2018",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Vel molestiae.",
-      icon: "🎓",
-    },
-    {
-      degree: "Secondary (10th)",
-      institution: "A.R.N.C Vidhyalya",
-      year: "2016",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Vel molestiae.",
       icon: "🎓",
     },
   ];
 
   const experience = [
     {
-      role: "Founder & Developer",
-      company: "Webelite Builders",
-      year: "2024 - Present",
+      role: "Firmware Engineer",
+      company: "Husky Robotics",
+      year: "October 2022 - May 2023 and October 2024 - Present",
       description: "Founded a digital marketing and web development agency, delivering tailored solutions.",
-      icon: "💼",
+      icon: "💻",
     },
     {
-      role: "MERN Stack Developer (Intern)",
-      company: "Company Name",
-      year: "2023",
+      role: "Undergraduate Researcher",
+      company: "Li's Research Group",
+      year: "2024 - Present",
       description: "Developed and optimized MERN stack applications, enhancing user experience.",
+      icon: "💻",
+    },
+    {
+      role: "Fullstack Engineer",
+      company: "Eat Together",
+      year: "December 2023 - Present",
+      description: "Founded a digital marketing and web development agency, delivering tailored solutions.",
+      icon: "💻",
+    },
+    {
+      role: "Frontend Engineer",
+      company: "Web Impact",
+      year: "October 2022 - May 2023 and October 2024 - Present",
+      description: "Founded a digital marketing and web development agency, delivering tailored solutions.",
       icon: "💻",
     },
   ];
