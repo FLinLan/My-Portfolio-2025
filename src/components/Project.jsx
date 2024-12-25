@@ -1,46 +1,47 @@
 import React from 'react'
-import Digital from '../assets/Digital.png'
-import Nike from '../assets/Nike.png'
-import Clothify from '../assets/Clothify.png'
 import { FaGithub } from 'react-icons/fa'
+import CPU from '../assets/CPU.png'
+import MotorBoard from '../assets/MotorBoard.png'
+import PlantMonitor from '../assets/PlantMonitor.png'
+import Recommend from '../assets/Recommend.png'
 
 const Project = () => {
     const projects = [
         {
-          title: "ARM pipelined CPU",
+          title: "Five Staged Pipelined ARM CPU",
           description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["SystemVerilog", "ModelSim", "ARM Assembly", "FPGA"],
-          link: "https://business420.netlify.app/",
-          github: 'https://github.com/rohitsingh93300/YTBusiness',
-          image: Digital, // Replace with your project screenshot
-        },
-        {
-          title: "Recommendation Buddy System",
-          description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["React", "Node.js", "MongoDB", "shadcn UI"],
-          link: "https://nike-topaz-delta.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Nike',
-          image: Nike, // Replace with your project screenshot
+            "Designed and Implemented a 64-bit ARM CPU with a five-staged pipeline architecture (Fetch, Decode, Execute, Memory, Writeback).",
+          techStack: ["SystemVerilog", "ModelSim", "ARM Assembly", "FPGA", "Intel Quartus"],
+          link: "https://github.com/evanzhaodev/CSE_EE-469-Labs",
+          github: 'https://github.com/evanzhaodev/CSE_EE-469-Labs',
+          image: CPU, // Replace with your project screenshot
         },
         {
           title: "BLDC Motor Board",
           description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
-          link: "https://clothify-two.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Clothify',
-          image: Clothify, // Replace with your project screenshot
+            "Implemented a CAN-FD communication protocol to achieve real-time motor control with low latency.",
+          techStack: ["Embedded C", "PuTTY", "PSoc Creator", "Altium Designer", "Moteus Controller"],
+          link: "https://github.com/huskyroboticsteam/Moteus_Breakout",
+          github: 'https://github.com/huskyroboticsteam/Moteus_Breakout',
+          image: MotorBoard, // Replace with your project screenshot
         },
         {
           title: "Plant Monitoring System",
           description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
-          techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
-          link: "https://clothify-two.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Clothify',
-          image: Clothify, // Replace with your project screenshot
+            "Developed a multi-functional IoT system capable of monitoring 3 environmental parameters simultaneously.",
+          techStack: ["Arduino ESP32", "RTOS", "Embedded C", "Hardware Sensors"],
+          link: "https://github.com/FLinLan/Plant-Monitoring-System",
+          github: 'https://github.com/FLinLan/Plant-Monitoring-System',
+          image: PlantMonitor, // Replace with your project screenshot
+        },
+        {
+          title: "Recommendation Buddy System",
+          description:
+            "Implemented a collaborative filtering algorithm that analyzes users' dining preferences, scheduling patterns, and past meal interactions to suggest compatible dining companions.",
+          techStack: ["React Native", "Node.js", "Expo", "Firebase", "Javascript", "HTML/CSS"],
+          link: "https://github.com/eat-together-team/eat-together",
+          github: 'https://github.com/eat-together-team/eat-together',
+          image: Recommend, // Replace with your project screenshot
         },
       ];
   return (
