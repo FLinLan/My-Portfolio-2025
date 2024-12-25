@@ -20,16 +20,24 @@ const Contact = () => {
                 <div>
                     <h3 className='text-2xl font-semibold text-gray-300'>Phone</h3>
                     <p className='text-gray-600 mt-2'>
-                        <a href="#" className='text-blue-500 hover:underline'>+123 456 7890</a>
+                        <a href="#" className='text-blue-500 hover:underline'>+415 264 6023</a>
                     </p>
                 </div>
                 <div>
                     <h3 className='text-2xl font-semibold text-gray-300'>Follow Me</h3>
                     <div className='flex gap-3 text-2xl transition-all mt-5'>
-                        <FaFacebook className='text-blue-400' />
-                        <FaInstagram className='text-blue-400' />
-                        <FaLinkedin className='text-blue-400' />
-                        <FaSquareXTwitter className='text-blue-400' />
+                        <a href="https://www.facebook.com/max.lan.9210/" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook className='text-blue-400 hover:text-blue-500' />
+                        </a>
+                        <a href="https://www.instagram.com/fulinlan1205/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram className='text-blue-400 hover:text-blue-500' />
+                        </a>
+                        <a href="https://www.linkedin.com/in/fulinlan20/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin className='text-blue-400 hover:text-blue-500' />
+                        </a>
+                        <a href="https://x.com/MaxLan490258" target="_blank" rel="noopener noreferrer">
+                            <FaSquareXTwitter className='text-blue-400 hover:text-blue-500' />
+                        </a>
                     </div>
                 </div>
             </div>

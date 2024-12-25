@@ -4,7 +4,7 @@ const education = [
       degree: "Bachelor of Engineering (BE) in Electrical and Computer Engineering",
       institution: "University of Washington",
       year: "2022 - 2026",
-      description: "Graduated with a strong foundation in critical thinking and problem-solving.",
+      description: "Junior standing at the College of Engineering, joined various Engineering clubs and Undergraduate Research positions",
       icon: "🎓",
     },
   ];
@@ -20,7 +20,7 @@ const education = [
     {
       role: "Undergraduate Researcher",
       company: "Li's Research Group",
-      year: "2024 - Present",
+      year: "December 2024 - Present",
       description: "Developed and optimized MERN stack applications, enhancing user experience.",
       icon: "💻",
     },
